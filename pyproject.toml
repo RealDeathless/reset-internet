@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "resetinternet"
+version = "0.1.0"
+description = ""
+authors = ["RealDeathless <deathless.mcd@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.11"
+
+[tool.poetry.dev-dependencies]
+pyinstaller = "^4.7"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
